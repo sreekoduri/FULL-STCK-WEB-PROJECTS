@@ -1,0 +1,79 @@
+#DAY-2 
+
+🎨 Why Do We Need CSS?
+
+CSS (Cascading Style Sheets) is used to make HTML look beautiful and professional.
+
+🔹 Without CSS 😐
+
+HTML only gives structure, not style.
+
+<h1>Hello</h1>
+<p>This is a website</p>
+
+👉 Output:
+
+Plain text
+No colors
+No design
+Looks boring ❌
+
+🔹 With CSS 😍
+
+CSS adds design, colors, layout, and style
+
+<h1 style="color: red;">Hello</h1>
+<p style="font-size: 20px;">This is a website</p>
+
+👉 Output:
+
+Colored text 🎨
+Bigger font 🔠
+Looks attractive ✅
+
+👉 TYPES OF CSS:
+1. Inline CSS-INSIDE TAG---<P STYLE="COLOR:RED:>HELLO</P>
+2. Internal CSS----Inside <style>
+3. External CSS-----Separate file----<link rel="stylesheet" href="styles.css">
+
+🔹CSS selectors:
+
+🔹 1. Basic Selectors
+
+1. Element Selector
+
+example:
+p {
+  color: blue;
+}
+
+2. Class Selector (.)
+
+example:
+.red-text {
+  color: red;
+}
+
+3. ID Selector (#)
+
+example:
+#title {
+  font-size: 30px;
+}
+
+🔹 2. Grouping Selector
+Apply same styles to multiple elements.
+
+example:
+h1, p, div {
+  color: green;
+}
+
+🔹 3. Universal Selector (*)
+
+Targets all elements.
+
+example:
+* {
+  margin: 0;
+}
